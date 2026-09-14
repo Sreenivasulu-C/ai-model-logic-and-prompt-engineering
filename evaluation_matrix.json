@@ -1,0 +1,22 @@
+{
+  "project_name": "LLM Reasoning Verification Matrix",
+  "version": "1.0.0",
+  "evaluation_criteria": {
+    "semantic_accuracy": {
+      "weight": 0.40,
+      "description": "Verifies that multi-turn model output completely aligns with input truth data guidelines without hallucination metrics."
+    },
+    "syntax_and_formatting": {
+      "weight": 0.30,
+      "description": "Checks strict constraint compliance including system limits, programmatic data schemas, and edge case parameters."
+    },
+    "logical_reasoning_flow": {
+      "weight": 0.30,
+      "description": "Analyzes the step-by-step rationalization path to ensure zero logic contradictions during output compilation."
+    }
+  },
+  "testing_environment": {
+    "framework": "Human-In-The-Loop (HITL) RLHF Validation Platform",
+    "status": "Active"
+  }
+}
